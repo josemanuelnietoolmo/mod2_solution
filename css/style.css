@@ -8,7 +8,7 @@ body{
     background-color: white;
 }
 
-.menu-page{
+.menu{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,15 +16,10 @@ body{
     border: 4px solid black;
     height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100;
 }
 
-.menu-page h2{ 
+.menu h2{ 
     margin: 30px auto 0 auto;
-    aling-items: center;
-    justify-content: center;
     position: relative;
     top: 20%;
 }
@@ -40,6 +35,7 @@ body{
 }
 
 .section{
+  box-sizing: border-box;
   width: 100%;
   height: 200px;
   display: flex;
