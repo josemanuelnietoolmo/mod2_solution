@@ -24,6 +24,7 @@ body{
 .menu-page h2{ 
     margin: 30px auto 0 auto;
     aling-items: center;
+    justify-content: center;
     position: relative;
     top: 20%;
 }
