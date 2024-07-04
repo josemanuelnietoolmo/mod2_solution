@@ -26,7 +26,6 @@ h3{
   justify-content: center;
   position: relative;
   top: 30%;
-  background-color: lightgray;
 }
 
 .section{
@@ -34,21 +33,28 @@ h3{
   height: 200px;
   display: flex;
   flex-direction: column;
-  border: 2px solid;
+  border: 2px solid black;
   margin: auto;
   position: relative;
+  background-color: lightgray;
 }
 
 .chicken h3{
+  align-items: right;
+  justify-content: center;
   background-color: lightpink;
 }
 
 .beef h3{
+  align-items: right;
+  justify-content: center;
   background-color: red;
   color: white;
 }
 
 .sushi h3{
+  align-items: right;
+  justify-content: center;
   background-color: lightyellow;
 }
 
